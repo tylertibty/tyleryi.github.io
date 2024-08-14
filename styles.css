@@ -116,7 +116,7 @@ li a:active {
     border: 5px solid #DDE6ED;
     margin: 15px;
     border-radius: 20px;
-    background-color: #27374D;
+    backdrop-filter: blur(10px);
     color: #DDE6ED;
     font-family: "Aleo", serif;
     font-optical-sizing: auto;
