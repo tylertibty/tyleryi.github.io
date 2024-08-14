@@ -19,6 +19,15 @@
   font-style: normal;
 }
 
+.readex-pro-header {
+    font-family: "Readex Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "HEXP" 0;
+  }
+
 body {
     background-color: #27374D;
   }
@@ -29,7 +38,11 @@ img{
 }
 
 h1 {
-    font-family: "aleo", serif;
+    font-family: "Readex Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "HEXP" 0;
     text-align: center;
     font-size: 500%;
     color: #9DB2BF;
