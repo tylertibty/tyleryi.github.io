@@ -57,6 +57,10 @@ h3 {
     margin-top: 50px;
 }
 
+h4 {
+    font-size: 150%;
+}
+
 .navBar {
     background-color: #192332;
     font-family: "aleo", sans-serif;
