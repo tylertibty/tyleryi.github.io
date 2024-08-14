@@ -109,7 +109,8 @@ li a:active {
 
 .item {
     padding: 20px;
-    border: 3px solid #DDE6ED;
+    border: 5px solid #DDE6ED;
+    margin: 15px;
     border-radius: 20px;
     background-color: #27374D;
     color: #DDE6ED;
