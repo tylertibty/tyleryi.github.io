@@ -66,6 +66,8 @@ h4 {
     font-family: "aleo", sans-serif;
     color: #DDE6ED;
     padding: 5px;
+    position: sticky;
+    top: 0;
 }
 
 .navDiv {
