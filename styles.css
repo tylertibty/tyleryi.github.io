@@ -108,6 +108,7 @@ li a:active {
     flex-wrap: wrap;
     justify-content: center;
     align-content: stretch;
+    flex-basis: 50px;
     margin: 30px;
 }
 
