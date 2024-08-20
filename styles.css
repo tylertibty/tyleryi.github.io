@@ -121,7 +121,7 @@ li a:active {
     border: 5px solid #DDE6ED;
     margin: 15px;
     border-radius: 20px;
-    webkit-backdrop-filter: blur(20px);
+    webkit-backdrop-filter: blur(30px);
     backdrop-filter: blur(30px);
     color: #DDE6ED;
     font-family: "Aleo", serif;
