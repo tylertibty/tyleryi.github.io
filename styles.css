@@ -1,0 +1,212 @@
+
+
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+  
+* {
+    text-decoration: none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.aleo-normalText {
+  font-family: "Aleo", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.readex-pro-header {
+    font-family: "Readex Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "HEXP" 0;
+  }
+
+body {
+    background-color: #27374D;
+  }
+  
+img{
+    width: 35%;
+    height: 35%;
+}
+
+h1 {
+    font-family: "Readex Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "HEXP" 0;
+    text-align: center;
+    font-size: 500%;
+    color: #9DB2BF;
+    margin-top: 50px;
+}
+
+h3 {
+    font-family: "aleo", sans-serif;
+    font-size: x-large;
+    color: #DDE6ED;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 150%;
+}
+
+.navBar {
+    background-color: rgba(25, 35, 50, 0.3);
+    -webkit-backdrop-filter: blur(30%);
+    backdrop-filter: blur(30%);
+    font-family: "aleo", sans-serif;
+    color: #DDE6ED;
+    padding: 5px;
+    box-shadow: 0px 10px 5px rgba(0,0,0,0.24);
+    position: sticky;
+}
+
+.navDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    color: #DDE6ED;
+    font-size: 25px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: #DDE6ED;
+    font-size: 25px;
+    margin-right: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: transform 0.3 ease;
+}
+
+li a:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    color: #8e959a;
+    transform: scale(0.7);
+}
+
+li a:active {
+    transform: scale(0.96);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    flex-basis: 50px;
+    margin: 30px;
+}
+
+.item {
+    padding: 20px;
+    border: 5px solid #DDE6ED;
+    margin: 15px;
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(20px);
+    background: rgba( 255, 255, 255, 0.15 );
+    backdrop-filter: blur(20px);
+    color: #DDE6ED;
+    font-family: "Aleo", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    max-width: 300px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.autoRotate {
+    animation: autoRotateAnimation both;
+    animation-timeline: view();
+}
+
+@keyframes autoRotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.autoShow {
+    animation: autoShowAnimation both;
+    animation-timeline: view(70% 5%);
+}
+
+@keyframes autoShowAnimation{
+    from {
+        opacity: 0;
+        transform: translateY(200px) scale(0.3);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.autoBlur {
+    animation: autoBlurAnimation linear both;
+    animation-timeline: view();
+}
+
+@keyframes autoBlurAnimation {
+    0% {
+        filter: blur(40px);
+    }
+    45%, 50% {
+        filter: blur(0px);
+    }
+    100% {
+        filter: blur(40px);
+    }
+}
+/* p {
+    font-family: "", sans-serif;
+    font-size: ;
+    color: #;
+    text-align: center;
+} */
+
+/* button {
+    font-family: "", sans-serif;
+    letter-spacing: 1px;
+    text-transform: ;
+    border: px solid #;
+    background-color: #;
+    color: #;
+    border-radius: px;
+    padding: px px;
+    cursor: pointer;
+    text-align: center;
+    font-size: ;
+    margin-top: px;
+    transition: transform 0.3 ease;
+} */
+
+
+/* button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+} */
+
+/* button:active {
+    transform: scale(0.96);
+} */ 
